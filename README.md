@@ -20,7 +20,9 @@ To install this aplication, you will clone the repository from GitHub.  You will
 
 ## Usage:
 
-The deployed application can be found on Heroku.
+The deployed application can be found on [Heroku](https://salty-cove-18833.herokuapp.com/).
+
+![Website Screenshot](https://user-images.githubusercontent.com/99057802/176488969-6bdbc601-211d-4f41-a489-a28f94868681.png)
 
 ## License:
 
