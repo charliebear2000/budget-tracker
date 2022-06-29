@@ -28,7 +28,7 @@ function saveRecord(record) {
 
   // add record to your store with add method.
   budgetObjectStore.add(record);
-}
+};
 
 function uploadTransaction() {
   // open a transaction on your pending db

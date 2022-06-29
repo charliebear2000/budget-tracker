@@ -3,10 +3,11 @@ const VERSION = 'version_01';
 const CACHE_NAME = APP_PREFIX + VERSION;
 
 const FILES_TO_CACHE = [
-   "/",
+  "/",
   "/index.html",
   "/js/index.js",
   "/js/idb.js",
+  "/manifest.json",
   "/css/styles.css",
   "/icons/icon-72x72.png",
   "/icons/icon-96x96.png",
@@ -43,7 +44,7 @@ self.addEventListener('install', function (e) {
       return cache.addAll(FILES_TO_CACHE)
     })
   )
-})
+});
 
 // Delete outdated caches
 self.addEventListener('activate', function(e) {
